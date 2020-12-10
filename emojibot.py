@@ -12,7 +12,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     ff=[]
-    for i in range(0,20):
+    for i in range(20):
         while True:
             emoji= emojis[random.randint(0,99)]
             if(emoji not in ff):
